@@ -70,7 +70,3 @@ https://github.com/user-attachments/assets/4d01644a-1619-421b-b09d-4b3d05b08a70
 
 ---
 
-## 📚 References
-1. Pesaran, A. A., “Battery Thermal Management in Electric and Hybrid Vehicles,” *SAE Technical Paper*, 2001.  
-2. Bandhauer, T. M., et al., “A Critical Review of Thermal Management of Li-Ion Batteries,” *Journal of Power Sources*, 2011.  
-3. MATLAB Simulink Documentation – [MathWorks](https://www.mathworks.com/products/simulink.html)
