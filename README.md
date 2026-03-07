@@ -46,6 +46,11 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
 
 *Image: EV battery pack prototype with coolant channels and sensors.*
 
+*Videos of  EV battery pack prototype with coolant channels and sensors.*
+https://github.com/user-attachments/assets/6d847302-2fe0-49b8-ac21-eb34d3653ada
+https://github.com/user-attachments/assets/4d01644a-1619-421b-b09d-4b3d05b08a70
+
+
 ---
 
 ## 📊 Results & Key Findings
