@@ -69,4 +69,72 @@ https://github.com/user-attachments/assets/4d01644a-1619-421b-b09d-4b3d05b08a70
 - Experimental validation of simulation results  
 
 ---
-
+## Codes
+#include <LiquidCrystal.h> 
+const int rs = 12; // NOTE: Change this if using the Motor Shield from Code 1!
+const int en = 11; 
+const int d4 = 5;
+const int d5 = 4; 
+const int d6 = 3;  // NOTE: Change this if using the Motor Shield from Code 1!
+const int d7 = 2; 
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7); 
+float current = 0; 
+float temp = 0;    // Changed to float for accurate calculation
+float current1 = 0; 
+float temp1 = 0;   // Changed to float for accurate calculation
+void setup() {   
+  lcd.begin(16, 2);   
+  Serial.begin(9600);  
+  pinMode(6, OUTPUT); 
+} 
+void loop() {   
+  String data = "";   
+  
+  // ----- Reading Battery 1 -----
+  current = analogRead(A2) - 432; 
+  current = current * 0.091;  // Fixed the 'l' typo to '1'
+  
+  // Correct TMP36 Temperature Math (5V Arduino)
+  temp = analogRead(A0);  
+  temp = (temp * 4.88);       // Convert ADC reading to millivolts
+  temp = (temp - 500) / 10.0; // Subtract 500mV offset, then divide by 10mV/degree C
+  // ----- Reading Battery 2 -----
+  current1 = analogRead(A3) - 434;
+  current1 = (current1 * 0.091) / 2.0;  
+  
+  // Correct TMP36 Temperature Math (5V Arduino)
+  temp1 = analogRead(A1);   
+  temp1 = (temp1 * 4.88);   
+  temp1 = (temp1 - 500) / 10.0; 
+  // ----- Printing to LCD -----
+  lcd.setCursor(0, 0);  
+  lcd.print("B-1 T:");  
+  lcd.print((int)temp);    // Cast to int here just to avoid decimal overflow on LCD screen
+  lcd.setCursor(9, 0); 
+  lcd.print("A:"); 
+  lcd.print(current, 1);   // Print with 1 decimal place
+  
+  lcd.setCursor(0, 1);  
+  lcd.print("B-2 T:");  
+  lcd.print((int)temp1);  
+  lcd.setCursor(9, 1);  
+  lcd.print("A:");   
+  lcd.print(current1, 1);  
+  
+  // ----- Motor / Cooling Logic -----
+  if(temp > 35) {     
+    analogWrite(6, 255);  // Max speed when very hot
+  }  
+  else if(temp > 32) {     
+    analogWrite(6, 200);  // Medium speed when getting hot
+  }
+  else {
+    analogWrite(6, 0);    // TURN OFF the pump when temp is safe (<= 32)
+  } 
+  // ----- Sending Data to Serial Monitor -----
+  // Adding spaces so the data doesn't squish into one giant unreadable number
+  data = String(temp) + "," + String(current) + "," + String(temp1) + "," + String(current1);  
+  Serial.println(data);   
+  
+  delay(1000);  
+}
