@@ -1,4 +1,4 @@
-# ev-battery-thermal-management
+
 # EV Battery Thermal Management System | MSc Project
 
 ## 📌 Motivation
