@@ -69,7 +69,19 @@ https://github.com/user-attachments/assets/4d01644a-1619-421b-b09d-4b3d05b08a70
 - Experimental validation of simulation results  
 
 ---
-## Codes
+
+## 🚀 Future Scope
+
+- Advanced Thermal Modeling: Use more detailed battery cell thermal models in MATLAB/Simulink for realistic simulations.
+- IoT Dashboard Integration: Stream live battery temperatures to a mobile or web dashboard for remote monitoring.
+- Multiple Sensor Network: Monitor each battery cell individually for precise thermal management.
+- Machine Learning for Predictive Cooling: Predict overheating events and optimize fan control proactively.
+- Hardware Implementation: Build a functional prototype with real battery packs, fans, and LCD/IoT display.
+- Energy Efficiency Optimization: Develop algorithms to minimize cooling energy while keeping battery temperatures safe.
+  
+---
+
+## 💻 Codes
 #include <LiquidCrystal.h> 
 const int rs = 12; // NOTE: Change this if using the Motor Shield from Code 1!
 const int en = 11; 
