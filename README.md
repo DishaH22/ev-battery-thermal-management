@@ -25,7 +25,11 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 - **Cold Water & Normal Water Tests** – Prototype validation  
 
 ---
+## Project planning
 
+<img width="2514" height="824" alt="gantt chart" src="https://github.com/user-attachments/assets/c5195133-3513-4a74-80eb-d690c775425c" />
+
+---
 ## 🛠 Modeling & Simulation
 - Developed a **liquid-based cooling system model with ethyl-glyol and water mix** in MATLAB/Simulink.  
 - Simulated **temperature distribution** across battery cells under different load conditions.  
