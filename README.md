@@ -54,10 +54,12 @@ https://github.com/user-attachments/assets/4d01644a-1619-421b-b09d-4b3d05b08a70
 
 ---
 
-## 📊 Results & Key Findings
-- Cold water significantly reduces battery temperature rise compared to normal water or no cooling.  
-- Simulations closely match prototype data, validating model accuracy.  
-- Optimized coolant flow and channel layout improves thermal uniformity across cells.  
+## 📊 Key Results / Project Impact
+
+- Conducted an in-depth analysis of temperature variation effects on electric vehicle battery performance and evaluated the effectiveness of an active liquid cooling         system.
+- Designed and implemented a cold-plate liquid cooling architecture for EV battery modules to regulate temperature distribution and improve thermal stability.
+- Achieved a ~15% reduction in peak battery cell temperature, improving safety, efficiency, and operational reliability of the battery pack.
+- Validated the system through comparative testing of different cooling configurations, demonstrating improved thermal performance over conventional water-only cooling       methods.
 
 ---
 
