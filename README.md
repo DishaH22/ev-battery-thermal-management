@@ -29,7 +29,23 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
 ## 🛠 Modeling & Simulation
 - Developed a **liquid-based cooling system model** in MATLAB/Simulink.  
 - Simulated **temperature distribution** across battery cells under different load conditions.  
-- Evaluated **heat dissipation efficiency** and **coolant flow rate** for optimization.  
+- Evaluated **heat dissipation efficiency** and **coolant flow rate** for optimization.
+  
+ <img width="1243" height="696" alt="Screenshot 2026-03-07 150440" src="https://github.com/user-attachments/assets/f5245cbe-aefa-49df-a579-7951ff6ef5fd" />
+ 
+ <img width="1651" height="708" alt="Screenshot 2026-03-07 150451" src="https://github.com/user-attachments/assets/9fa7c7d2-6a1e-40a0-8a4c-7740dd182fac" />
+
+ <img width="1755" height="702" alt="Screenshot 2026-03-07 150502" src="https://github.com/user-attachments/assets/cdb38024-16b6-4ed5-b052-7614ead3f215" />
+
+
+---
+
+## 🛠 Simulation Results
+
+
+<img width="799" height="704" alt="Screenshot 2026-03-07 150530" src="https://github.com/user-attachments/assets/e8dde340-bdc2-483b-97b3-81e3e45a861b" />
+
+ <img width="1800" height="712" alt="Screenshot 2026-03-07 150543" src="https://github.com/user-attachments/assets/e5a182a6-4863-42b2-b26f-0026aade3a15" />
 
 ---
 
@@ -39,7 +55,27 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
   - No cooling (baseline)  
   - Cold water cooling  
   - Normal water cooling  
-- Validated simulation results against experimental measurements.  
+- Validated simulation results against experimental measurements.
+
+---
+
+## Componets used 
+- Arduino Uno 
+- TMP 36  
+- Battery
+- Motor pump to drive the water
+- Pipes
+- LCD for display
+![WhatsApp Image 2026-03-07 at 14 30 01](https://github.com/user-attachments/assets/f5fecf6b-eb1e-40c9-a1eb-689011d03d66)
+![WhatsApp Image 2026-03-07 at 14 29 23](https://github.com/user-attachments/assets/b51272dc-caa6-4e5c-aad3-2d14361203f3)
+![WhatsApp Image 2026-03-07 at 14 29 40](https://github.com/user-attachments/assets/d7d306e0-2a37-44f3-9d80-33d943e1ab6b)
+![WhatsApp Image 2026-02-10 at 07 15 42](https://github.com/user-attachments/assets/1e315a22-76a9-40ba-ac88-8e84e84146b8)
+
+
+---
+
+## 🖼 Prototype & Testing Results
+  
 <img width="733" height="550" alt="image" src="https://github.com/user-attachments/assets/5efa10c1-e1ae-4c08-a0c8-b40a293bfdce" />
  <img width="709" height="532" alt="image" src="https://github.com/user-attachments/assets/79911326-650d-43fa-86af-33b993c350d8" />
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/ff18090f-92e9-4fd8-ad95-1d77ef5c167f" />
