@@ -9,10 +9,10 @@ Effective thermal management is **critical for EV battery performance, lifespan,
 ---
 
 ## 📈 Project Overview
-This project focuses on designing, modeling, and testing a **liquid-based thermal management system** for EV battery packs.  
+This project focuses on designing, modeling, and testing on **battety temperatureof a Li-oin battery with and without cooling with ethyl-glycol and water mix liquid-based thermal management system** for EV battery packs.  
 
 **Key Objectives:**  
-1. Model the thermal behavior of a battery pack under various load scenarios.  
+1. Model the thermal behavior of a Li-ion battery pack under various load scenarios.  
 2. Simulate heat dissipation and coolant flow using MATLAB/Simulink.  
 3. Prototype and validate cooling strategies with different coolant conditions.  
 
@@ -27,7 +27,7 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
 ---
 
 ## 🛠 Modeling & Simulation
-- Developed a **liquid-based cooling system model** in MATLAB/Simulink.  
+- Developed a **liquid-based cooling system model with ethyl-glyol and water mix** in MATLAB/Simulink.  
 - Simulated **temperature distribution** across battery cells under different load conditions.  
 - Evaluated **heat dissipation efficiency** and **coolant flow rate** for optimization.
   
@@ -37,11 +37,17 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
 
  <img width="1755" height="702" alt="Screenshot 2026-03-07 150502" src="https://github.com/user-attachments/assets/cdb38024-16b6-4ed5-b052-7614ead3f215" />
 
+**Battey pack without cooling**
+
+<img width="1908" height="761" alt="Screenshot 2026-03-08 203230" src="https://github.com/user-attachments/assets/1f5b3cab-3370-47d8-a793-e52f24de5719" />
+
 
 ---
 
+
 ## 🛠 Simulation Results
 
+<img width="754" height="659" alt="Screenshot 2026-03-08 203248" src="https://github.com/user-attachments/assets/bf707f7d-3447-4848-93c7-79c2ef84ac1b" />
 
 <img width="799" height="704" alt="Screenshot 2026-03-07 150530" src="https://github.com/user-attachments/assets/e8dde340-bdc2-483b-97b3-81e3e45a861b" />
 
@@ -71,8 +77,18 @@ This project focuses on designing, modeling, and testing a **liquid-based therma
 ![WhatsApp Image 2026-03-07 at 14 29 40](https://github.com/user-attachments/assets/d7d306e0-2a37-44f3-9d80-33d943e1ab6b)
 ![WhatsApp Image 2026-02-10 at 07 15 42](https://github.com/user-attachments/assets/1e315a22-76a9-40ba-ac88-8e84e84146b8)
 
+---
+
+## Prototpe Flowchart
+
+## System Without Cooling
+<img width="542" height="722" alt="battery temp without cooling" src="https://github.com/user-attachments/assets/8eeb2fa5-a0e7-4e47-a652-d04ff1848122" />
+
+## System With Cooling
+<img width="927" height="1544" alt="battery temp with cooling" src="https://github.com/user-attachments/assets/7adea0da-c5bf-4cf4-b504-a5bd9d8c660b" />
 
 ---
+
 
 ## 🖼 Prototype & Testing Results
   
