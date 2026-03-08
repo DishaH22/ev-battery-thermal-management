@@ -2,14 +2,19 @@
 # EV Battery Thermal Management System | MSc Project
 
 ## 📌 Motivation
-Effective thermal management is **critical for EV battery performance, lifespan, and safety**.  
-- Overheating reduces efficiency and can lead to safety issues.  
-- Optimized cooling ensures stable operation under all load conditions.  
+In electric vehicles, the battery pack is the core of the system, and thermal management is critical. Batteries generate heat during charging, discharging, and rapid acceleration. Overheating can:  
+- Reduce efficiency, as high temperatures decrease the energy the battery can deliver.  
+- Shorten battery lifespan by accelerating chemical degradation.  
+- Create safety hazards, including the risk of thermal runaway or fires.  
+
+After reviewing multiple cooling methods — such as air cooling, phase-change materials, liquid cooling, and heat pipes — **liquid cooling via a motor-driven coolant pump was found to be the most efficient**, maintaining uniform temperature across the battery pack while minimizing energy consumption.  
+
+Implementing this system ensures the battery operates within the optimal temperature range, improving **performance, safety, and longevity**, which is essential for electric vehicles operating under varying loads and environmental conditions.
 
 ---
 
 ## 📈 Project Overview
-This project focuses on designing, modeling, and testing on **battety temperatureof a Li-oin battery with and without cooling with ethyl-glycol and water mix liquid-based thermal management system** for EV battery packs.  
+This project focuses on designing, modeling, and testing on **battety temperature of a Li-oin battery with and without cooling with ethyl-glycol and water mix liquid-based thermal management system** for EV battery packs.  
 
 **Key Objectives:**  
 1. Model the thermal behavior of a Li-ion battery pack under various load scenarios.  
