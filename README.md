@@ -49,7 +49,8 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 
 
 **Battey pack without cooling**
-<img width="444" height="269" alt="image" src="https://github.com/user-attachments/assets/432afc47-56e9-42ef-9272-287f256607a7" />
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/432afc47-56e9-42ef-9272-287f256607a7" />
 
 <img width="1908" height="761" alt="Screenshot 2026-03-08 203230" src="https://github.com/user-attachments/assets/1f5b3cab-3370-47d8-a793-e52f24de5719" />
 
@@ -96,7 +97,7 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 ## Prototpe Flowchart
 
 ## System Without Cooling
-<img width="542" height="722" alt="battery temp without cooling" src="https://github.com/user-attachments/assets/8eeb2fa5-a0e7-4e47-a652-d04ff1848122" />
+<img width="700" height="1200" alt="battery temp without cooling" src="https://github.com/user-attachments/assets/8eeb2fa5-a0e7-4e47-a652-d04ff1848122" />
 
 ## System With Cooling
 <img width="927" height="1544" alt="battery temp with cooling" src="https://github.com/user-attachments/assets/7adea0da-c5bf-4cf4-b504-a5bd9d8c660b" />
