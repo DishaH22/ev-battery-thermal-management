@@ -44,12 +44,12 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 - Evaluated **heat dissipation efficiency** and **coolant flow rate** for optimization.
   
  <img width="1243" height="696" alt="Screenshot 2026-03-07 150440" src="https://github.com/user-attachments/assets/f5245cbe-aefa-49df-a579-7951ff6ef5fd" />
- 
+
  <img width="1651" height="708" alt="Screenshot 2026-03-07 150451" src="https://github.com/user-attachments/assets/9fa7c7d2-6a1e-40a0-8a4c-7740dd182fac" />
 
- <img width="1755" height="702" alt="Screenshot 2026-03-07 150502" src="https://github.com/user-attachments/assets/cdb38024-16b6-4ed5-b052-7614ead3f215" />
 
 **Battey pack without cooling**
+<img width="444" height="269" alt="image" src="https://github.com/user-attachments/assets/432afc47-56e9-42ef-9272-287f256607a7" />
 
 <img width="1908" height="761" alt="Screenshot 2026-03-08 203230" src="https://github.com/user-attachments/assets/1f5b3cab-3370-47d8-a793-e52f24de5719" />
 
@@ -64,6 +64,8 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 <img width="799" height="704" alt="Screenshot 2026-03-07 150530" src="https://github.com/user-attachments/assets/e8dde340-bdc2-483b-97b3-81e3e45a861b" />
 
  <img width="1800" height="712" alt="Screenshot 2026-03-07 150543" src="https://github.com/user-attachments/assets/e5a182a6-4863-42b2-b26f-0026aade3a15" />
+ 
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/96ef4628-f7bd-4115-92c5-6ed468df3c87" />
 
 ---
 
