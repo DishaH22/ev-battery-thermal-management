@@ -64,7 +64,7 @@ This project focuses on designing, modeling, and testing on **battety temperatur
 
 <img width="799" height="704" alt="Screenshot 2026-03-07 150530" src="https://github.com/user-attachments/assets/e8dde340-bdc2-483b-97b3-81e3e45a861b" />
 
- <img width="1800" height="712" alt="Screenshot 2026-03-07 150543" src="https://github.com/user-attachments/assets/e5a182a6-4863-42b2-b26f-0026aade3a15" />
+<img width="1800" height="712" alt="Screenshot 2026-03-07 150543" src="https://github.com/user-attachments/assets/e5a182a6-4863-42b2-b26f-0026aade3a15" />
  
 <img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/96ef4628-f7bd-4115-92c5-6ed468df3c87" />
 
