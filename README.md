@@ -15,15 +15,34 @@ During the project, the battery temperature was analyzed **with and without cool
 This highlights the **critical need for an effective Battery Management System (BMS)** for electric vehicles, especially when using Li-ion batteries. A proper BMS with thermal monitoring and automatic cooling ensures that the battery operates within a safe temperature range, improving **performance, safety, and longevity**.  
 
 ---
+## Project Snapshot
+
+- **Domain:** Electric Vehicles / Battery Systems
+- **Project Type:** MSc Project
+- **Tools Used:** MATLAB/Simulink, Arduino, Proteus
+- **Focus Area:** Battery thermal management
+- **Outcome:** ~15% peak temperature reduction with liquid cooling
+  
+---
 
 ## 📈 Project Overview
 This project focuses on designing, modeling, and testing on **battety temperature of a Li-oin battery with and without cooling with ethyl-glycol and water mix liquid-based thermal management system** for EV battery packs.  
-
+---
 **Key Objectives:**  
 1. Model the thermal behavior of a Li-ion battery pack under various load scenarios.  
 2. Simulate heat dissipation and coolant flow using MATLAB/Simulink.  
 3. Prototype and validate cooling strategies with different coolant conditions.  
 
+---
+## Key Engineering Skills Demonstrated
+
+- EV battery thermal management
+- MATLAB/Simulink modeling and simulation
+- Thermal analysis of Li-ion batteries
+- Prototype development and testing
+- Arduino-based temperature monitoring
+- Experimental validation of cooling performance
+- Data interpretation and comparison of cooling conditions
 ---
 
 ## 🔧 Tools & Technologies
