@@ -27,7 +27,9 @@ This highlights the **critical need for an effective Battery Management System (
 
 ## 📈 Project Overview
 This project focuses on designing, modeling, and testing on **battety temperature of a Li-oin battery with and without cooling with ethyl-glycol and water mix liquid-based thermal management system** for EV battery packs.  
+
 ---
+
 **Key Objectives:**  
 1. Model the thermal behavior of a Li-ion battery pack under various load scenarios.  
 2. Simulate heat dissipation and coolant flow using MATLAB/Simulink.  
